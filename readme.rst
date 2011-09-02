@@ -1,5 +1,8 @@
-Simple UDP and TCP utilities
-============================
+Source code examples
+====================
+
+TCP and UDP utilities
+--------------------
 These are a set of simple UDP and TCP utilities that have been developed
 on an ad-hoc basis. They are Linux specific (although they probably work
 on BSD as well).
@@ -25,3 +28,11 @@ The source files are:
 * sockbounce.py - An embarassingly unsophisticated script to reflect packets.
   Normally hacked to some particular purpose before actually being used.
 
+Other stuff
+-----------
+Other stuff I'd prefer not to have to rewrite every few years.
+
+* circular.c - A simple circular buffer implementation, which I believe
+  is similar to that used in tstools. Contains code to print out a
+  representation of the circular buffer, which is useful for buffers
+  of a suitably small size.
