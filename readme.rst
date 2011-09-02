@@ -1,5 +1,7 @@
 Source code examples
 ====================
+Stuff I don't want to lose. Not guaranteed to be great code,
+but hopefully useful examples.
 
 TCP and UDP utilities
 --------------------
